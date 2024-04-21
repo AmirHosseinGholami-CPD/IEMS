@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zxx" id="pageroot">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Themeyn">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <title>Ministry of Education</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="min-w-[320px] bg-slate-100 dark:bg-slate-900">
+    <div id="root">
+        <div id="demoSettings" class="fixed z-[5001] hidden h-full w-full [&amp;.active]:block">
+        </div>
+        <div class="flex min-h-screen max-w-full flex-col overflow-x-hidden pt-[calc(theme(space.16)+theme(space.1))]" id="#pagecontent">
+            <div class="fixed start-0 top-0 isolate z-[1020] w-full border-b border-slate-200 bg-white px-3 py-4 dark:border-slate-800 dark:bg-slate-950 xl:py-3">
+                <div class="container px-3">
+                    <div class="w-100 flex items-center justify-between">
+                        <div class="flex items-center gap-x-2">
+                            <div class="-ms-1.5 xl:hidden">
+                                <button class="header-toggle inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-full text-slate-400 transition-all hover:bg-slate-200 hover:text-slate-600 hover:dark:bg-slate-800 hover:dark:text-slate-200 [&amp;.active]:bg-slate-200 [&amp;.active]:text-slate-600 [&amp;.active]:dark:bg-slate-800 [&amp;.active]:dark:text-slate-200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                                    </svg><!-- bars-3 - outline - heroicons -->
+                                </button>
+                            </div>
+                            <a href="index.html" class="flex-shrink-0">
+                                <div class="flex items-center">
+                                    <img class="h-16 dark:hidden" src="images/Light.png" alt="logo">
+                                    <img class="hidden h-16 dark:block" src="images/Dark.png" alt="logo">
+                                </div>
+                            </a>
+                            <!-- logo -->
+                        </div>
+                        <!-- header-brand -->
+                        <div class="main-header peer fixed start-0 top-0 z-[1020] flex h-screen w-64 flex-shrink-0 -translate-x-full flex-col border-e border-slate-200 bg-white py-4 dark:border-slate-800 dark:bg-slate-950 max-xl:overflow-auto max-xl:transition-all xl:static xl:h-auto xl:w-auto xl:!translate-x-0 xl:border-e-0 xl:py-0 xl:transition-none rtl:translate-x-full [&amp;.header-visible]:translate-x-0">
+                            <ul class="menu-head flex flex-col gap-x-6 px-4 xl:flex-row xl:items-center">
+                                <li class="menu-item group relative">
+                                    <a href="../Main Light English/index.html" class="menu-link flex items-center py-2 text-sm font-medium text-slate-700 group-hover:text-blue-600 group-[.active>]:text-blue-600 hover:text-blue-600 dark:text-slate-100 group-[.active>]:dark:text-blue-600 hover:dark:text-blue-600 xl:py-3">
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item group relative">
+                                    <a href="../AI Dark English/index.html" class="menu-link flex items-center py-2 text-sm font-medium text-slate-700 group-hover:text-blue-600 group-[.active>]:text-blue-600 hover:text-blue-600 dark:text-slate-100 group-[.active>]:dark:text-blue-600 hover:dark:text-blue-600 xl:py-3">
+                                        <span>Chat By Ai</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item group relative">
+                                    <a href="../Table English/index.html" class="menu-link flex items-center py-2 text-sm font-medium text-slate-700 group-hover:text-blue-600 group-[.active>]:text-blue-600 hover:text-blue-600 dark:text-slate-100 group-[.active>]:dark:text-blue-600 hover:dark:text-blue-600 xl:py-3">
+                                        <span>Curriculum</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item group relative">
+                                    <a href="../Analysis English/index.html" class="menu-link flex items-center py-2 text-sm font-medium text-slate-700 group-hover:text-blue-600 group-[.active>]:text-blue-600 hover:text-blue-600 dark:text-slate-100 group-[.active>]:dark:text-blue-600 hover:dark:text-blue-600 xl:py-3">
+                                        <span>Analysis</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item group relative">
+                                    <a href="../Chat Lesson English/index.html" class="menu-link flex items-center py-2 text-sm font-medium text-slate-700 group-hover:text-blue-600 group-[.active>]:text-blue-600 hover:text-blue-600 dark:text-slate-100 group-[.active>]:dark:text-blue-600 hover:dark:text-blue-600 xl:py-3">
+                                        <span>Class Group</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- header-main -->
+                        <div class="header-toggle pointer-events-none fixed inset-0 z-[1019] bg-slate-950 bg-opacity-50 opacity-0 peer-[.header-visible]:pointer-events-auto peer-[.header-visible]:opacity-100 xl:!opacity-0"></div>
+                        <!-- overlay -->
+                        <ul class="flex items-center gap-x-3 lg:gap-x-5">
+                            <li class="relative inline-flex">
+                                <button class="theme-toggle inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-full text-slate-400 transition-all *:pointer-events-none hover:bg-slate-200 hover:text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hidden h-4 dark:block">
+                                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd"></path>
+                                    </svg><!-- moon - solid - heroicons  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 dark:hidden">
+                                        <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"></path>
+                                    </svg><!-- sun - solid - heroicons  -->
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- header-tools -->
+                    </div>
+                </div>
+                <!-- container -->
+            </div>
+            <!-- header -->
+            <div class="relative px-3 py-10">
+                <div class="container px-3">
+                    <div class="flex">
+                        <div class="hidden flex-shrink-0 md:block md:w-48 lg:w-72">
+                            <div class="relative inline-flex w-full flex-shrink-0 overflow-hidden rounded-lg outline outline-2 outline-offset-2 outline-slate-300 dark:outline-slate-700">
+                                <img src="images/a.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 w-full md:ms-6 lg:ms-8">
+                            <h2 class="mb-4 mt-2 text-xl font-bold text-slate-700 dark:text-white">Amir Hossein Gholami</h2>
+                            <div class="w-full rounded-lg border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
+                                <ul class="tab-nav flex border-b border-slate-200 px-3 dark:border-slate-800">
+                                    <li class="tab-item">
+                                        <a href="#" data-target="#Overview" class="tab-toggle active mx-3 -mb-[1px] flex items-center border-b-2 border-b-transparent py-3 text-sm font-medium text-slate-600 focus-visible:outline-none dark:text-slate-200 [&amp;.active]:border-blue-600 [&amp;.active]:text-blue-600 [&amp;.active]:dark:text-blue-600">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 px-2 xs:px-0">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                                            </svg>
+                                            <!-- user-circle - outline - heroicons -->
+                                            <span class="ms-2 hidden xs:block">Profile</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- tab-nav -->
+                                <div class="tab-content">
+                                    <div class="tab-panel active hidden [&amp;.active]:block" id="Overview">
+                                        <div class="p-6">
+                                            <div class="flex flex-wrap">
+                                                <div class="mb-3 w-36 flex-shrink-0 xs:w-28 sm:w-40 md:hidden">
+                                                    <div class="relative inline-flex w-full flex-shrink-0 overflow-hidden rounded-lg outline outline-2 outline-offset-2 outline-slate-300 dark:outline-slate-700">
+                                                        <img src="images/a.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="w-full xs:ms-6 xs:w-[calc(100%-theme(space.36))] sm:ms-8 sm:w-[calc(100%-theme(space.48))] md:ms-0 md:w-full">
+                                                    <div class="mb-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+                                                        <h2 class="text-lg font-bold text-slate-700 dark:text-white">Information</h2>
+                                                    </div>
+                                                    <div class="-mx-3 flex flex-wrap">
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> Name </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400">Amir Hossein Gholami</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> Grade </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400">Eight</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> National Number </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400"> 5320143583 </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> Phone Number </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400"> +98 930 166 0591</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> City </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400"> Busher </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-1/2 px-3 md:w-1/3">
+                                                            <div class="py-2">
+                                                                <h6 class="text-sm font-bold text-slate-600 dark:text-slate-200"> School </h6>
+                                                                <p class="text-xs text-slate-500 dark:text-slate-400"> Zendeh yad kordi </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- section -->
+                                        <div class="relative isolate mt-auto border-t border-slate-200 bg-white px-6 py-4 dark:border-slate-800 dark:bg-slate-950">
+                                            <div class="container px-3">
+                                                <div class="flex items-center justify-between">
+                                                    <p class="text-xs font-medium text-slate-600 dark:text-white">Ministry of Education
+                                                    </p>
+                                                    <ul class="-mx-3 flex flex-wrap">
+                                                        <li>
+                                                            <a href="#" class="px-3 text-sm font-medium text-slate-600 transition-all hover:text-blue-600 dark:text-slate-100 "> Amir Hossein Gholami </a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="_blank" href="../about.html" class="px-3 text-sm font-medium text-slate-600 transition-all hover:text-blue-600 dark:text-slate-100 "> Aboalfazl Khazri </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- footer -->
+                                    </div>
+                                    <!-- page-content -->
+                                </div>
+                                <!-- root -->
+                                <!-- JavaScript -->
+                                <script src="js/bundle.js"></script>
+                                <script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>
